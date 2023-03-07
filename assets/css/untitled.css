@@ -30,3 +30,48 @@ social-icon {
   /*z-index: -100;*/
 }
 
+section {
+  background-color: rgb(45, 44, 56);
+}
+
+#err-txt a {
+  color: var(--bs-red);
+}
+
+.clubcards {
+  border-radius: 25px;
+}
+
+.spoke {
+  border-radius: 25px;
+}
+
+.cardsrow {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+#cardEntrada-1 {
+  align-content: center;
+  align-self: center;
+}
+
+.cardcol {
+  align-content: center;
+  align-items: center;
+  position: flex;
+}
+
+customCard {
+  border-radius: 40px;
+  align-items: center;
+}
+
+.customCard {
+  align-items: center;
+  border-radius: 40px;
+}
+
