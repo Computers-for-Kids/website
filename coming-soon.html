@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Now Redirecting...</title>
+    <title>Coming Soon</title>
     <meta name="" content="">
     <meta name="title" content="Computers for Kids">
     <meta property="og:image" content="https://stogacfk.club/assets/img/club/logo-nospace.png">
@@ -45,35 +45,15 @@
         </div>
     </nav>
     <header class="bg-dark">
-        <section style="padding-top: 6rem;padding-bottom: 6rem;">
+        <section style="padding-top: 6rem;padding-bottom: 6rem;min-height: 310px;">
             <div class="redirtext">
-                <h1 style="color: var(--bs-green);"><strong>Now Redirecting</strong></h1>
-                <p id="redir-text" style="margin-bottom: 36px;">Determining redirect location...</p>
+                <h1 style="color: var(--bs-green);"><strong>Coming soon</strong></h1>
+                <p class="err" style="margin-bottom: 36px;">This pages is not available yet. Return <a href="index.html"><span style="color: rgb(25, 245, 170);">home</span></a>?</p>
             </div>
         </section>
-    </header><script>
-let url = null;
-try {
-  url = new URLSearchParams(window.location.search).get('url');
-} catch (e) {}
-
-console.log(url);
-
-const redirectText = document.getElementById('redir-text');
-
-if (url) {
-  redirectText.innerHTML = `Redirecting to ${url} in 3 seconds...`;
-} else {
-  redirectText.innerHTML = `Going to the homepage in 3 seconds...`;
-  url = "index.html";
-}
-
-setTimeout(() => {
-  window.location.href = url;
-}, 3000);
-</script>
-    <footer class="bg-dark">
-        <div class="container py-4 py-lg-5">
+    </header>
+    <footer class="bg-dark footer-sm">
+        <div class="container py-4 py-lg-5" style="padding: 0rem;">
             <hr>
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
@@ -88,7 +68,7 @@ setTimeout(() => {
                     <h3 class="fs-6 fw-bold">Member Center</h3>
                     <ul class="list-unstyled">
                         <li><a href="resources.html">Resources</a></li>
-                        <li><a href="coming-soon.html">Refurbishment Help</a></li>
+                        <li><a href="#">Refurbishment Help</a></li>
                         <li><a href="redirect.html?url=https%3A%2F%2Fdiscord.gg%2F3Updt2RZus">Discord</a></li>
                     </ul>
                 </div>
@@ -99,7 +79,7 @@ setTimeout(() => {
             </div>
             <hr>
             <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-                <p class="mb-0">This is an early version of our website.<br>2023 Computers for Kids Club</p>
+                <p class="mb-0">2023 Computers for Kids Club<br>This is an early version of our website.</p>
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item"><a href="redirect.html?url=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100079818392258"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
                                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>

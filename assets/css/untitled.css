@@ -79,3 +79,15 @@ customCard {
   text-align: center;
 }
 
+.footer-sm {
+  position: absolute;
+  width: 100%;
+  min-height: 320px;
+  bottom: 0px;
+  left: 0;
+}
+
+.err: a {
+  color: var(--bs-green);
+}
+
