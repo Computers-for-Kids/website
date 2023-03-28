@@ -91,3 +91,11 @@ customCard {
   color: var(--bs-green);
 }
 
+.navs {
+  justify-content: right;
+}
+
+#navcol-1 {
+  justify-content: right;
+}
+
